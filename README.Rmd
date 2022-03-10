@@ -1,11 +1,13 @@
 Bioinformatics in R
 
 # Basic Unix
-
+```{unix}
+ls
+```
 # Basic R
-## test plot by dataset inside R basic package
-### analysis of the cars dataset
-** Part 1 **
+## Plots using dataset inside R package
+### Analysis of the cars dataset
+**Part 1**
 
 ```{r}
 data(cars)
@@ -15,13 +17,19 @@ summary(cars)
 plot(cars)
 ```
 
-
-** Part 2 **
+**Part 2**
+```{r,echo=T}
 hist(cars$speed)
 boxplot(cars$dist)
+```
 
+The mean speed of cars was `r mean(cars$speed)`.  
+inline equation $x= 50-x /n$   
+display equation $$ x= 50-x /2n $$ 
 
-
+ 
+horizontal Rule / page break  
+*******----------
 
 # Statistics in R
 
@@ -33,5 +41,5 @@ boxplot(cars$dist)
 
 # Genome methylation
 
-
+#### (End)
 
