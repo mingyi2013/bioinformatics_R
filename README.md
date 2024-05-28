@@ -22,6 +22,8 @@ boxplot(cars$dist)
 
 
 # Statistics in R
+## t test
+## linear regression
 
 # RNA-seq
 
