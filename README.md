@@ -3,9 +3,10 @@ Bioinformatics in R
 # Basic Unix
 
 # Basic R
-## test plot by dataset inside R basic package
-### analysis of the cars dataset
-** Part 1 **
+
+## plot
+### cars dataset
+** scatter plot**
 
 ```{r}
 data(cars)
@@ -14,15 +15,16 @@ str(cars)
 summary(cars)
 plot(cars)
 ```
-** Part 2 **
+
+** histogram **
 hist(cars$speed)
 boxplot(cars$dist)
 
 
-
-
 # Statistics in R
+
 ## t test
+
 ## linear regression
 
 # RNA-seq
